@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="indicator"></div>
+    <webview src="https://app.eduk.com.br" style="background-color:red;display:inline-flex; width:1000px; height:1000px"></webview>
+</body>
+<script>
+    onload = () => {
+        const webview = document.querySelector('webview')
+        const indicator = document.querySelector('.indicator')
+
+        const loadstart = () => {
+            indicator.innerText = 'loading...'
+        }
+
+        const loadstop = () => {
+            indicator.innerText = ''
+        }
+
+        webview.addEventListener('did-start-loading', loadstart)
+        webview.addEventListener('did-stop-loading', loadstop)
+    }
+</script>
+
+</html>

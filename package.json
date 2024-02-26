@@ -1,0 +1,31 @@
+{
+    "name": "br.com.eduk",
+    "version": "1.0.1",
+    "description": "Aplicativo Eduk",
+    "main": "main.js",
+    "scripts": {
+        "dist": "electron-builder",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/flathub/br.com.eduk.app.git"
+    },
+    "keywords": [
+        "flatpak",
+        "electron",
+        "demo",
+        "tutorial"
+    ],
+    "author": "Carles Pastor Badosa",
+    "license": "GPL-3.0+",
+    "bugs": {
+        "url": "https://github.com/flathub/br.com.eduk.app/issues"
+    },
+    "homepage": "https://github.com/flathub/br.com.eduk.app",
+    "devDependencies": {
+        "electron": "^17.0.0",
+        "electron-builder": "^23.0.0"
+    }
+}
