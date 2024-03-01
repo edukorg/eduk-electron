@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <name>eduK</name>
-  <id>br.com.eduk.school</id>
+  <id>br.com.eduk</id>
   <summary>eduK is an educational web platform focused on assisting users in income generation</summary>
   <url type="homepage">https://app.eduk.com.br</url>
   
@@ -32,5 +32,5 @@
   </releases>
   <content_rating type="oars-1.1"/>
   <developer_name>eduK</developer_name>
-  <launchable type="desktop-id">br.com.eduk.school.desktop</launchable>
+  <launchable type="desktop-id">br.com.eduk.desktop</launchable>
 </component>
