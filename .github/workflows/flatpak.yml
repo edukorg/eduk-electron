@@ -20,5 +20,5 @@ jobs:
     - uses: flathub-infra/flatpak-github-actions/flatpak-builder@master
       with:
         bundle: eduk.flatpak
-        manifest-path: flatpak/br.com.eduk.yml
+        manifest-path: flatpak/br.com.eduk.school.yml
         cache-key: "flatpak-builder-${{ github.sha }}"
